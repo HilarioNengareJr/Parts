@@ -4,13 +4,13 @@ const Content = (props) => {
     return (
         <>
             <p>
-                {props.part1} {props.exercise1}
+                {props.part1} {props.exercises1}
             </p>
             <p>
-                {props.part2} {props.exercise2}
+                {props.part2} {props.exercises2}
             </p>
             <p>
-                {props.part3} {props.exercise3}
+                {props.part3} {props.exercises3}
             </p>
         </>
     );
