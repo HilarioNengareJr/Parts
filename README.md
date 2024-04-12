@@ -1,1 +1,1 @@
-# React + Vite
+ReactJs tutorial for students.
