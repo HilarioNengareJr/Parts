@@ -1,1 +1,1 @@
-ReactJs tutorial for students.
+ReactJs tutorial.
