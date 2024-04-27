@@ -9,7 +9,7 @@ const App = () => {
   const [showAll, setShowAll] = useState(true)
 
   useEffect(() => {
-    axios.get('http://localhost:3001/notes').then(response => {
+    axios.get('http://localhost:3001/persons').then(response => {
       console.log(response);
       setNotes(response.data);
     })
@@ -34,6 +34,8 @@ const App = () => {
     setNewNote('')
   }
 
+
+  
   const notesToShow = showAll
     ? notes
     : notes.filter(note => note.important === true)
